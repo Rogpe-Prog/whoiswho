@@ -4,6 +4,6 @@
         { "whoiswho": "app.js", "use": "@now/node-server" }
     ], 
     "routes": [
-        { "whoiswho": "/.*", "dest": "app.js"}
+        { "whoiswho": "/.*", "dest": "app.js"} 
     ]
 }
