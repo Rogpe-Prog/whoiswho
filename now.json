@@ -1,9 +1,9 @@
 {
     "version": 2,
     "builds": [
-        { "alias": "app.js", "use": "@now/node-server" }
+        { "src": "app.js", "use": "@now/node-server" }
     ], 
     "routes": [
-        { "alias": "/.*", "dest": "app.js"} 
+        { "src": "/.*", "dest": "app.js"} 
     ]
 }
