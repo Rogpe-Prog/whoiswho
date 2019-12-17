@@ -1,9 +1,9 @@
 {
     "version": 2,
     "builds": [
-        { "whoiswho": "app.js", "use": "@now/node-server" }
+        { "alias": "app.js", "use": "@now/node-server" }
     ], 
     "routes": [
-        { "whoiswho": "/.*", "dest": "app.js"} 
+        { "alias": "/.*", "dest": "app.js"} 
     ]
 }
